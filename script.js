@@ -19,7 +19,7 @@ function checkInput() {
         if (inputValue === targetWord) {
             // Wenn ja, das Bild hinzufügen
             const img = document.createElement("img");
-            img.src = ""; // Beispielbild
+            img.src = "_DSC2981.JPG"; // Beispielbild
             img.alt = "Beispielbild";
             
             // Das alte Ergebnis löschen und das neue Bild hinzufügen
