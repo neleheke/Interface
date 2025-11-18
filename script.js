@@ -4,6 +4,7 @@ if (text.value == "Astronaut") {
     alert("Jajaja")
 }
 
+
 function checkInput() {
         // Das spezifische Wort, nach dem gesucht wird
         const targetWord = "Astronaut";
@@ -17,6 +18,8 @@ function checkInput() {
 
         // Prüfen, ob das eingegebene Wort dem Zielwort entspricht
         if (inputValue === targetWord) {
+            window.open
+
             // Wenn ja, das Bild hinzufügen
             const img = document.createElement("img");
             img.src = "_DSC2981.JPG"; // Beispielbild
